@@ -9,8 +9,8 @@ A API foi solicitada como atividade da disciplina "Inteligência Artificial", co
     ### Para instalação via terminal
      * 1. Abra o terminal do linux: _ctrl+alt+t_ ou no terminal do vscode: _crtl+j_
      * 2. Digite os comandos:
-      ##### Ative o ambiente virtual (venv) e ativá-lo:  
-             _python -m venv venv_  ou python3 -m venv venv
+      ##### Ative o ambiente virtual (venv):  
+             *_python -m venv venv_*  ou python3 -m venv venv
              _source venv/bin/activate_
       ##### Instale as bibliotecas: 
             pip install fastapi uvicorn opencv-python pillow numpy ultralytics
