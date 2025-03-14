@@ -13,4 +13,3 @@ A API foi solicitada como atividade da disciplina "Inteligência Artificial", co
         * Observação: Eu tive dificuldade em instalar direto, precisei utilizar o sudo. Nesse caso basta utilizar sudo apt install e o nome da biblioteca.
 
     
-
