@@ -5,7 +5,7 @@ A API foi solicitada como atividade da disciplina "Inteligência Artificial", co
 ## Configuração do ambiente de execução
 * Editor de código-fonte utilizado para esta atividade: [VSCODE](https://code.visualstudio.com/Download)
 * Linguagem de programação utlizada: [Python](https://www.python.org/downloads/)
-* Necessãrio instalação das bibliotecas: _fastapi, uvicorn, opencv-python, pillow, numpy e ultralytics_
+* Necessário instalação das bibliotecas: _fastapi, uvicorn, opencv-python, pillow, numpy e ultralytics_
   ### Para instalação via terminal, considerando que já tenha instalado o editor de código e o python
      * 1. Abra o terminal do linux, com o comando:```ctrl+alt+t``` ou no terminal do vscode: ```crtl+j```
      * 2. Ative o ambiente virtual (venv):  ```python -m venv venv``` ou ```python3 -m venv venv``` e   ```source venv/bin/activate```
