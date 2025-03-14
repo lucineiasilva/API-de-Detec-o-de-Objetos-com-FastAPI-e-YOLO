@@ -11,14 +11,14 @@ A API foi solicitada como atividade da disciplina "Inteligência Artificial", co
      * 2. Ative o ambiente virtual (venv):  **```python -m venv venv```*** ou **```python3 -m venv venv```** e   **source venv/bin/activate**
      * 3. Instale as bibliotecas: **pip install fastapi uvicorn opencv-python pillow numpy ultralytics**
         * Observação: Eu tive dificuldade em instalar direto, precisei utilizar o sudo. Nesse caso basta utilizar sudo apt install e o nome da biblioteca.
-    ### Para rodar o servidor, digite o comando:
-              **```uvicorn main:app --host 0.0.0.0 --port 8000 --reload```**
-    ### Para testar a API
-          Acesse no navegador:
-           `` http://127.0.0.1:8000```
-_Você verá {"message":"Esta página faz parte da última Atividade da Disciplina de IA - Docente: José Lucas Brandão e Discente: Lucineia Pacheco "}._
+   ## Para rodar o servidor, digite o comando:
+```uvicorn main:app --host 0.0.0.0 --port 8000 --reload```
+   ## Para testar a API, digite o comando:
+```http://127.0.0.1:8000/```
+Irá aparecer a mensagem ->  _{"message":"Esta página faz parte da última Atividade da Disciplina de IA - Docente: José Lucas Brandão e Discente: Lucineia Pacheco "}._
+   ## Testar a documentação Swagger (documentação automática):
+```http://127.0.0.1:8000/docs```
 
-Testar no Swagger (documentação automática):
-           ```http://127.0.0.1:8000/docs```
+
         
     
