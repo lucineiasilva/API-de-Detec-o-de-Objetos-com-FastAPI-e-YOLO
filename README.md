@@ -20,7 +20,8 @@ E consiste no desenvolvimento de uma API que recebe imagens, processa-as utiliza
 Irá aparecer a mensagem ->  _{"message":"Esta página faz parte da última Atividade da Disciplina de IA - Docente: José Lucas Brandão e Discente: Lucineia Pacheco "}._
   ### Testar a documentação Swagger (documentação automática):
 ```http://127.0.0.1:8000/docs```
-
+ ### Para carregar uma imagem
+Após abrir a documentação vá até o **post/detect/** e em **try it out**, na sequencia, carregue o arquivo no campo **procurar** e depois clique em **execute.**
 
         
     
