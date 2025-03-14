@@ -1,6 +1,7 @@
 # Projeto API de Detecção de Objetos com FastAPI e YOLO**🚀
 ## Descrição
 A API foi solicitada como atividade da disciplina "Inteligência Artificial", como nota parcial para conclusão da referida disciplina.
+E consiste no desenvolvimento de uma API que recebe imagens, processa-as utilizando o modelo YOLO (You Only Look Once) para detecção de objetos e retorna as detecções identificadas.
 
 ## Configuração do ambiente de execução
 * Editor de código-fonte utilizado para esta atividade: [VSCODE](https://code.visualstudio.com/Download)
