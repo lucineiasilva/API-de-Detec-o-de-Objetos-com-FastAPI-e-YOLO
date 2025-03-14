@@ -8,10 +8,9 @@ A API foi solicitada como atividade da disciplina "Inteligência Artificial", co
 * Necessãrio instalação das bibliotecas: _fastapi, uvicorn, opencv-python, pillow, numpy e ultralytics_
     ### Para instalação via terminal
      * 1. Abra o terminal do linux, com o comando:```ctrl+alt+t``` ou no terminal do vscode: ```crtl+j```
-     * 2. Ative o ambiente virtual (venv):  ```python -m venv venv``` ou python3 -m venv venv  e   **source venv/bin/activate**
+     * 2. Ative o ambiente virtual (venv):  **```python -m venv venv```*** ou **```python3 -m venv venv```** e   **source venv/bin/activate**
      * 3. Instale as bibliotecas: **pip install fastapi uvicorn opencv-python pillow numpy ultralytics**
         * Observação: Eu tive dificuldade em instalar direto, precisei utilizar o sudo. Nesse caso basta utilizar sudo apt install e o nome da biblioteca.
-    ### Para rodar o servidor, digite o comando:
-         uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-
+    ### Para rodar o servidor, digite o comando: **```uvicorn main:app --host 0.0.0.0 --port 8000 --reload```**
+        
     
