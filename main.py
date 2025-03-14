@@ -13,7 +13,6 @@ async def read_root():
 
 @app.post("/detect/")
 async def detect_objects(file: UploadFile):
-    # Process the uploaded image for object detection
     image_bytes = await file.read()
     image = np.frombuffer(image_bytes, dtype=np.uint8)
     image = cv2.imdecode(image, cv2.IMREAD_COLOR)
@@ -26,9 +25,9 @@ async def detect_objects(file: UploadFile):
     for result in results:
         for box in result.boxes:
             detections.append({
-                "class": box.cls.item(),  # Class ID
-                "confidence": box.conf.item(),  # Confidence score
-                "box": box.xyxy.tolist()  # Bounding box [x1, y1, x2, y2]
+                "class": box.cls.item(),  
+                "confidence": box.conf.item(),  
+                "box": box.xyxy.tolist()  # 
             })
     
     return {"detections": detections}
